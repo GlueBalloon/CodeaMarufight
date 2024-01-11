@@ -1,14 +1,16 @@
 --[[
 
+Adapted from https://github.com/groverburger/marufight
+
+Runs in the Codea iPad and iPhone app.
+
+Not sure all functionality has been preserved.
+
+
 original readme:
 
 # MARUFIGHT ー 丸戦
 An evolution simulation designed to create a diverse and dynamic ecosystem with simple and understandable rules. Written in Lua with [LOVE2D](https://love2d.org/).
-
-
-
-![](marufight.gif)
-
 
 
 # How it works
@@ -46,14 +48,4 @@ A maru's nose "retracts" when it rotates too quickly, rendering it unable to pop
 - Download and extract this repo (or clone it)
 - Drag the extracted repo into the LOVE2D application icon
 
-
-
-Right click and drag to move the camera. The camera can also be moved with the WASD keys and left shift.
-
 Click on a maru to view its brain and statistics.
-
-Press 'F' to toggle follow mode. This mode will center the camera on whichever maru has the most amount of offspring as of that moment.
-
-Press 'Space' to pause.
-
-]]
